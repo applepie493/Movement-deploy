@@ -31,6 +31,8 @@ Movementのテストネットがあり、興味があったのでdeployしてみ
 
  今回は、JSを選択しました。
 
+ ３．依存関係の確認
+
 ```
 npm install --save-dev "hardhat@^2.19.0" "@nomicfoundation/hardhat-toolbox@^3.0.0"
 ```
