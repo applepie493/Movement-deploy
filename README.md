@@ -24,7 +24,7 @@ Movementのテストネットがあり、興味があったのでdeployしてみ
     ```mkdir hardhat-move-evm```
 
 
-２．aaa
+２．aaaああああ
 
 
 
