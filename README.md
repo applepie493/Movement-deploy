@@ -103,3 +103,6 @@ npx hardhat run scripts/deploy.js --network m1
 # ４．実行結果
 `Lock with 0.001ETH and unlock timestamp 1702990817 deployed to ********************************`
 
+
+# ５．参考文献
+<https://docs.movementlabs.xyz/developers/developer-tools/fractal/fractal-hardhat>
