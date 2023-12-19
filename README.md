@@ -20,25 +20,31 @@ Movementのテストネットがあり、興味があったのでdeployしてみ
 <br>1 MOV貰えます。
 
 # 3.hardhatとFractalを使用してM1へのコントラクトをデプロイする
-１．プロジェクトディレクトリの作成する<br>
-```　mkdir hardhat-move-evm　```
+１．プロジェクトディレクトリの作成する
+```
+mkdir hardhat-move-evm
+```
 
-```　cd hardhat-move-evm　```
+２．プロジェクトディレクトリへ移動
+```
+cd hardhat-move-evm
+```
 
-
-２．hardhatのプロジェクトを作成<br>
- ```npx hardhat init ```
-
+３．hardhatのプロジェクトを作成
+ ```
+ npx hardhat init
+```
+ 
  今回は、JSを選択しました。
 
-３．依存関係の確認
+４．依存関係の確認
 
 ```
 npm install --save-dev "hardhat@^2.19.0" "@nomicfoundation/hardhat-toolbox@^3.0.0"
 ```
 
 
-４．dotenvのインストール
+５．dotenvのインストール
 ```
 npm install dotenv
 ```
