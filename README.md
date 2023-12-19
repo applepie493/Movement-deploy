@@ -25,7 +25,15 @@ Movementのテストネットがあり、興味があったのでdeployしてみ
     　　cd hardhat-move-evm```
 
 
-２．aaaああああ
+２．hardhatのプロジェクトを作成<br>
+ ```npx hardhat init ```
+
+ 今回は、JSを選択しました。
+
+```
+npm install --save-dev "hardhat@^2.19.0" "@nomicfoundation/hardhat-toolbox@^3.0.0"
+```
+
 
 
 
