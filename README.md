@@ -19,7 +19,7 @@ Movementのテストネットがあり、興味があったのでdeployしてみ
 <br>M1 faucetにMove-EVMのウォレットアドレスを入力し、faucetを押す。<br>
 <br>1 MOV貰えます。
 
-# 3.hardhatとFractalを使用してM1へのコントラクトをデプロイする
+# ３．hardhatとFractalを使用してM1へのコントラクトをデプロイする
 １．プロジェクトディレクトリの作成する
 ```
 mkdir hardhat-move-evm
@@ -50,7 +50,56 @@ npm install dotenv
 ```
 
 
+６．.envファイルの作成
+```
+touch .env
+```
+中身は`PRIVATE_KEY=<your private key>` <br>
+エディタはnanoを使用。
 
 
+７．hardhat.config.jsの書き換え
+```
+require("@nomicfoundation/hardhat-toolbox");
+require('dotenv').config();
 
+module.exports = {
+  defaultNetwork: "m1",
+  networks: {
+    hardhat: {
+    },
+    m1: {
+      url: "https://mevm.devnet.m1.movementlabs.xyz/v1",
+      accounts: [process.env.PRIVATE_KEY],
+      chainId: 336,
+      gasPrice: "auto",
+    }
+  },
+  solidity: {
+    version: "0.8.19",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200
+      }
+    }
+  },
+  paths: {
+    sources: "./contracts",
+    tests: "./test",
+    cache: "./cache",
+    artifacts: "./artifacts"
+  }
+}
+```
+
+
+８．実行
+```
+npx hardhat run scripts/deploy.js --network m1
+```
+
+
+# ４．実行結果
+`Lock with 0.001ETH and unlock timestamp 1702990817 deployed to ********************************`
 
