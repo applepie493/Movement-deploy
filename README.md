@@ -20,7 +20,7 @@ M1 faucetにMove-EVMのウォレットアドレスを入力し、faucetを押す
 1 MOV貰えます。
 
 # 3.hardhatとFractalを使用してM1へのコントラクトをデプロイする
-プロジェクトディレクトリの作成<br>
+プロジェクトディレクトリの作成
 mkdir hardhat-move-evm <br>
 
 
