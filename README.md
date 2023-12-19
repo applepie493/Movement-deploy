@@ -13,4 +13,7 @@ Movementのテストネットがあり、興味があったのでdeployしてみ
 
     - ID：0x150　画像で確認すると0150ではない。0150でやるとエラーになる。
 
-# ２．
+# ２．faucet
+以下のリンクよりアクセス。<br>
+<https://faucet.movementlabs.xyz/?network=testnet><br>
+
