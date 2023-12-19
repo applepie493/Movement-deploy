@@ -20,8 +20,10 @@ Movementのテストネットがあり、興味があったのでdeployしてみ
 <br>1 MOV貰えます。
 
 # 3.hardhatとFractalを使用してM1へのコントラクトをデプロイする
-プロジェクトディレクトリの作成する<br>
-    mkdir hardhat-move-evm
+１．プロジェクトディレクトリの作成する<br>
+    'mkdir hardhat-move-evm
+
+２．
 
 
 
