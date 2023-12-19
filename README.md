@@ -16,4 +16,6 @@ Movementのテストネットがあり、興味があったのでdeployしてみ
 # ２．faucet
 以下のリンクよりアクセス。<br>
 <https://faucet.movementlabs.xyz/?network=testnet><br>
+M1 faucetにMove-EVMのウォレットアドレスを入力し、faucetを押す。
 
+# 3.
