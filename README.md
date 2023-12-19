@@ -19,4 +19,9 @@ Movementのテストネットがあり、興味があったのでdeployしてみ
 M1 faucetにMove-EVMのウォレットアドレスを入力し、faucetを押す。<br>
 1 MOV貰えます。
 
-# 3.
+# 3.hardhatとFractalを使用してM1へのコントラクトをデプロイする
+プロジェクトディレクトリの作成<br>
+mkdir hardhat-move-evm <br>
+
+
+
